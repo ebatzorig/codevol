@@ -6,6 +6,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavbarBrand from 'react-bootstrap/NavbarBrand';
 
+import Footer from './components/Footer'; 
+
+import Home from './pages/HomePage'; 
+import About from './pages/AboutPage'; 
+import Contact from './pages/ContactPage'; 
+
+
 import './App.css';
 
 
@@ -25,7 +32,10 @@ class App extends React.Component {
         text: 'this is home'
       },
       about:{
-        text:'this is about'
+        title:'this is about'
+      },
+      contact:{
+        title:'this is about'
       }
     }
   }
@@ -35,7 +45,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Garrett Love</Navbar.Brand>
+            <Navbar.Brand>PortFolio</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
@@ -43,14 +53,19 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
+
+                 
               </Nav>
             </Navbar.Collapse>
             
           </Navbar>
+          <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} /> } />
+          <Route path="/about" exact render={() => <About title={this.state.home.title} /> } />
+          <Route path="/contact" exact render={() => <Contact title={this.state.home.title} /> } />
+          
+          
 
-          <h1>
-            HAHA
-          </h1>
+          <Footer />
         </Container>
       </Router>
     );
