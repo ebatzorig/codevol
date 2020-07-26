@@ -14,14 +14,14 @@ class ContactPage extends React.Component{
             message:'',
             disabled:false,
             emailSent:null
-        };
+        }
     }
 
     handleChange = (event) => {
 
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
-        const name = event.name;
+        const name = target.name;
 
         this.setState({
             [name]: value
@@ -29,7 +29,12 @@ class ContactPage extends React.Component{
     }
 
     handleSubmit = (event) => {
-        // event.preventDefault();
+        event.preventDefault();
+        
+        this.setState({
+            disabled: true,
+            emailSent: false
+        });
     }
 
     render(){
@@ -38,6 +43,7 @@ class ContactPage extends React.Component{
                 <Hero title={this.props.title}/>
                 <Content>
                     <Form onSubmit={this.handleSubmit}>
+                        
                         <Form.Group>
                             <Form.Label htmlFor="full-name">Full name</Form.Label>
                             <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
