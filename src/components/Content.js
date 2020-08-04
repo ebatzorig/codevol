@@ -15,5 +15,4 @@ function Content(props){
         </Container>
     );
 }
-
 export default Content;
