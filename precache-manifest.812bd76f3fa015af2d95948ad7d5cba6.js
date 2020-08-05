@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7c67877f8f799afa06160599c56112a",
+    "revision": "8c5ee0594eedff5100ca5588b47d9fbd",
     "url": "/codevol/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codevol/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "7de614fc37157bed1d84",
+    "revision": "6b742dc0768af9d3fe31",
     "url": "/codevol/static/css/main.3c566a94.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/codevol/static/js/2.1524160f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7de614fc37157bed1d84",
-    "url": "/codevol/static/js/main.7ea98270.chunk.js"
+    "revision": "6b742dc0768af9d3fe31",
+    "url": "/codevol/static/js/main.53209584.chunk.js"
   },
   {
     "revision": "e44ab4e3147be414bae0",
