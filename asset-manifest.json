@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/codevol/static/css/main.3c566a94.chunk.css",
-    "main.js": "/codevol/static/js/main.78591aea.chunk.js",
-    "main.js.map": "/codevol/static/js/main.78591aea.chunk.js.map",
+    "main.js": "/codevol/static/js/main.ba3c0dfe.chunk.js",
+    "main.js.map": "/codevol/static/js/main.ba3c0dfe.chunk.js.map",
     "runtime-main.js": "/codevol/static/js/runtime-main.c60a0514.js",
     "runtime-main.js.map": "/codevol/static/js/runtime-main.c60a0514.js.map",
     "static/css/2.829c9cb5.chunk.css": "/codevol/static/css/2.829c9cb5.chunk.css",
     "static/js/2.1524160f.chunk.js": "/codevol/static/js/2.1524160f.chunk.js",
     "static/js/2.1524160f.chunk.js.map": "/codevol/static/js/2.1524160f.chunk.js.map",
     "index.html": "/codevol/index.html",
-    "precache-manifest.5af01169f80fd276827477e131ce7580.js": "/codevol/precache-manifest.5af01169f80fd276827477e131ce7580.js",
+    "precache-manifest.32f531f88239f5139faef650de86829a.js": "/codevol/precache-manifest.32f531f88239f5139faef650de86829a.js",
     "service-worker.js": "/codevol/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/codevol/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.3c566a94.chunk.css.map": "/codevol/static/css/main.3c566a94.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.1524160f.chunk.js",
     "static/css/main.3c566a94.chunk.css",
-    "static/js/main.78591aea.chunk.js"
+    "static/js/main.ba3c0dfe.chunk.js"
   ]
 }
