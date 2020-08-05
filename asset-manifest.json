@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/codevol/static/css/main.3c566a94.chunk.css",
+    "main.js": "/codevol/static/js/main.7ea98270.chunk.js",
+    "main.js.map": "/codevol/static/js/main.7ea98270.chunk.js.map",
+    "runtime-main.js": "/codevol/static/js/runtime-main.c60a0514.js",
+    "runtime-main.js.map": "/codevol/static/js/runtime-main.c60a0514.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/codevol/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.1524160f.chunk.js": "/codevol/static/js/2.1524160f.chunk.js",
+    "static/js/2.1524160f.chunk.js.map": "/codevol/static/js/2.1524160f.chunk.js.map",
+    "index.html": "/codevol/index.html",
+    "precache-manifest.0ee5ad1a35d825cab793e8890f9580c0.js": "/codevol/precache-manifest.0ee5ad1a35d825cab793e8890f9580c0.js",
+    "service-worker.js": "/codevol/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/codevol/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.3c566a94.chunk.css.map": "/codevol/static/css/main.3c566a94.chunk.css.map",
+    "static/js/2.1524160f.chunk.js.LICENSE.txt": "/codevol/static/js/2.1524160f.chunk.js.LICENSE.txt",
+    "static/media/devgrud.png": "/codevol/static/media/devgrud.4008b57f.png",
+    "static/media/everest.png": "/codevol/static/media/everest.4b00c37a.png",
+    "static/media/logo.svg": "/codevol/static/media/logo.ee7cd8ed.svg",
+    "static/media/youtube.png": "/codevol/static/media/youtube.210ddbd5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c60a0514.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.1524160f.chunk.js",
+    "static/css/main.3c566a94.chunk.css",
+    "static/js/main.7ea98270.chunk.js"
+  ]
+}
